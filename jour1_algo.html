@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithmique et programmation</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+        }
+
+        header {
+            background-color: #212121;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        .home-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: #009688;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .home-btn:hover {
+            background-color: #00796b;
+        }
+
+        h1 {
+            color: white;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 30px auto;
+            background-color: #2a2a2a;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .download-btn {
+            background-color: #607d8b;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .download-btn:hover {
+            background-color: #455a64;
+        }
+
+        img {
+            height: 250px;
+            margin-bottom: 20px;
+        }
+
+        .pdf-container {
+            margin-bottom: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 700px; /* Height set to maximum */
+            border: none;
+        }
+
+        footer {
+            background-color: #212121;
+            color: #e0e0e0;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="home-btn">Home</a>
+        <h1>Algorithmique et programmation</h1>
+    </header>
+
+    <main>
+        <!-- Lien de téléchargement pour le fichier "algorithmique" -->
+        <a href="fichiers/algorithmique.pdf" class="download-btn" download>Télécharger le fichier "algorithmique.pdf"</a>
+
+	<br>
+        <!-- Image avec une hauteur de 250px (placée sous le lien de téléchargement) -->
+        <img src="images/Machine_a_trier.jpg" alt="Machine à trier">
+
+        <!-- Fichier PDF intégré (nim.pdf) avec hauteur maximale (placé sous l'image) -->
+        <div class="pdf-container">
+            <iframe src="fichiers/nim.pdf"></iframe>
+        </div>
+
+        <!-- Lien de téléchargement pour le fichier "python.pdf" -->
+        <a href="fichiers/python.pdf" class="download-btn" download>Télécharger le fichier "python.pdf"</a><br>
+
+        <!-- Lien de téléchargement pour le fichier "craintif.py" -->
+        <a href="fichiers/craintif.py" class="download-btn" download>Télécharger le fichier "craintif.py"</a>
+    </main>
+
+    <footer>
+        &copy; 2024 Formation Algorithmique et Programmation
+    </footer>
+</body>
+
+</html>
