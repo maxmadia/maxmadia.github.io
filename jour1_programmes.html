@@ -81,6 +81,17 @@
             width: 100%;
             bottom: 0;
         }
+
+	.pdf-container {
+            margin-bottom: 20px;
+        }
+
+        iframe {
+            width: 25%;
+            height: 25%; /* Height set to maximum */
+            border: none;
+        }
+
     </style>
 </head>
 
@@ -93,8 +104,10 @@
     <main>
         <section>
             <h2>Téléchargez les documents</h2>
-            <a href="techno_cycle3.pdf" class="download-btn" download>Télécharger Enseigner la Technologie au cycle 3</a><br>
-            <a href="fichiers/techno_cycle4.pdf" class="download-btn" download>Télécharger Enseigner la Technologie au cycle 4</a>
+        <div class="pdf-container">
+            <iframe src="techno_cycle3.pdf"></iframe>
+            <iframe src="techno_cycle4.pdf"></iframe>
+        </div>
         </section>
 
         <section>

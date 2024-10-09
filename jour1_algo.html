@@ -77,9 +77,9 @@
         }
 
         iframe {
-            width: 100%;
-            height: 700px; /* Height set to maximum */
-            border: none;
+            width: 48%;
+            height: 400px;
+            border: 1px solid #ccc;
         }
 
         footer {
@@ -87,6 +87,20 @@
             color: #e0e0e0;
             padding: 10px 0;
             text-align: center;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            border: 1px solid #ccc;
+            color: black;
+            overflow-x: auto;
+        }
+
+        code {
+            color: #d63384;
         }
     </style>
 </head>
@@ -98,23 +112,19 @@
     </header>
 
     <main>
-        <!-- Lien de téléchargement pour le fichier "algorithmique" -->
-        <a href="fichiers/algorithmique.pdf" class="download-btn" download>Télécharger le fichier "algorithmique.pdf"</a>
-
-	<br>
-        <!-- Image avec une hauteur de 250px (placée sous le lien de téléchargement) -->
-        <img src="images/Machine_a_trier.jpg" alt="Machine à trier">
-
-        <!-- Fichier PDF intégré (nim.pdf) avec hauteur maximale (placé sous l'image) -->
-        <div class="pdf-container">
-            <iframe src="fichiers/nim.pdf"></iframe>
+	<div class="pdf-container">
+            <iframe src="algorithmique.pdf" width="48%" height="400px" title="Algorithmique"></iframe>
+            <iframe src="nim.pdf"></iframe>
         </div>
 
-        <!-- Lien de téléchargement pour le fichier "python.pdf" -->
-        <a href="fichiers/python.pdf" class="download-btn" download>Télécharger le fichier "python.pdf"</a><br>
+	<br>
 
-        <!-- Lien de téléchargement pour le fichier "craintif.py" -->
-        <a href="fichiers/craintif.py" class="download-btn" download>Télécharger le fichier "craintif.py"</a>
+
+	<div class="pdf-container">
+            <iframe src="python.pdf"></iframe>
+	    <iframe src="code.html" width="48%" height="600px" title="Code Python"></iframe>
+        </div>
+
     </main>
 
     <footer>
