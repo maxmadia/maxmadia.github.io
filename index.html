@@ -7,52 +7,62 @@
     <title>Enseigner la Technologie - Programme</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #e0f7fa; /* Couleur de fond plus vive */
+            color: #333;
         }
 
         header {
-            background-color: #3f51b5;
+            background: linear-gradient(45deg, #3f51b5, #ff4081); /* Dégradé de couleurs */
             color: white;
             padding: 20px 0;
             text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         main {
-            max-width: 1200px;
-            margin: 30px auto;
-            background-color: white;
-            padding: 20px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            max-width: 1000px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            padding: 40px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
 
         h1 {
-            color: white;
-            background-color: #3f51b5;
-            text-align: center;
-            margin-bottom: 50px;
-            padding: 20px;
+            font-size: 28px;
+            text-transform: uppercase;
+            margin: 0;
         }
 
         h2 {
-            color: #333;
-            margin-top: 40px;
-            border-bottom: 2px solid #3f51b5;
-            padding-bottom: 10px;
+            font-size: 22px;
+            color: #ff4081; /* Titre en couleur vive */
+            margin-bottom: 20px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #e0e0e0;
         }
 
         ul {
-            list-style: none;
+            list-style-type: none;
             padding: 0;
         }
 
         li {
-            background-color: #e7e7e7;
+            background-color: #ffeb3b; /* Couleur vive pour les items de la liste */
             margin: 10px 0;
-            padding: 15px;
-            border-radius: 5px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        li:hover {
+            transform: scale(1.02);
+            background-color: #fbc02d; /* Légère variation au survol */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
         }
 
         li a {
@@ -62,35 +72,38 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            transition: color 0.3s ease;
         }
 
         li a:hover {
             color: #3f51b5;
         }
 
-        footer {
-            background-color: #3f51b5;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-
         .button {
-            background-color: #3f51b5;
+            background-color: #ff4081;
             color: white;
-            padding: 10px 20px;
+            padding: 12px 25px;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 8px;
             font-size: 16px;
-            margin-top: 20px;
             display: inline-block;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
         }
 
         .button:hover {
-            background-color: #283593;
+            background-color: #e91e63;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        footer {
+            background-color: #3f51b5;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 14px;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
         }
     </style>
 </head>
@@ -117,7 +130,7 @@
             <li><a>Pause (09:45 - 10:00) - 15 min</a></li>
             <li><a href="jour1_chenille.html">Séquence de cycle 3 : La chenille (10:00 - 11:30) - 90 min</a></li>
             <li><a href="jour1_retex.html">Retex (11:30 - 12:00) - 30 min</a></li>
-	    <li><a>repas (12:00 - 13:00) - 60 min</a></li>
+	        <li><a>Repas (12:00 - 13:00) - 60 min</a></li>
             <li><a href="jour1_algo.html">Algorithmique et programmation : Découverte et programmation de Thymio (13:00 - 15:00) - 120 min</a></li>
         </ul>
 
@@ -128,17 +141,20 @@
             <li><a href="jour2_ia.html">Intelligence Artificielle : faisons le point (09:30 - 10:00) - 30 min</a></li>
             <li><a>Pause (10:00 - 10:15) - 15 min</a></li>
             <li><a href="jour2_puzzle.html">Thématique des matériaux : Le puzzle aimanté (10:15 - 12:00) - 105 min</a></li>
-	    <li><a>repas (12:00 - 13:00) - 60 min</a></li>
+	        <li><a>Repas (12:00 - 13:00) - 60 min</a></li>
             <li><a href="jour2_fabrication.html">Fabrication : Imprimante 3D, découpe laser, machines outils (13:00 - 14:00) - 60 min</a></li>
             <li><a href="bilan.html">Bilan, retex en établissement, évaluation du stage (14:00 - 15:00) - 60 min</a></li>
+<br>
+<a href="https://drive.google.com/drive/folders/1B8I7rsgX6nGIqw74XtzS6qGpcjgdkSvI?usp=sharing">Fiches connaissances</a>
+
+
         </ul>
 
         <!-- Section Distanciel -->
-        <h2>Distanciel </h2>
+        <h2>Distanciel</h2>
         <ul>
             <li><a href="distanciel.html">Visio - 90 minutes</a></li>
         </ul>
-
     </main>
 
     <footer>
